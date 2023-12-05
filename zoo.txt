@@ -1,0 +1,59 @@
+### Exercice : Gestion d'animaux dans un Zoo
+
+#### Partie 1 : Création des classes
+
+OK 1. Définissez une classe abstraite `Animal` avec les 
+propriétés `nom` et `espece`. 
+Ajoutez une méthode abstraite `crier()`.
+
+
+OK 2. Créez deux classes qui étendent `Animal` : `Lion` et `Girafe`. 
+Implémentez la méthode `crier()` pour chaque classe.
+
+
+OK 3. Déclarez une classe statique `Zoo` qui contiendra un tableau statique pour stocker les animaux du zoo. 
+Ajoutez une méthode statique `ajouterAnimal(Animal $animal)` qui ajoute un animal au zoo.
+
+#### Partie 2 : Utilisation des classes
+
+OK 1. Instanciez un lion et une girafe.
+
+
+OK 2. Ajoutez-les au zoo à l'aide de la méthode statique.
+
+
+OK 3. Ajoutez un autre lion directement à la classe Zoo.
+
+
+OK 4. Créez une constante dans la classe `Animal` pour définir le nombre maximum d'animaux dans le zoo. 
+Assurez-vous que la classe Zoo utilise cette constante pour afficher un message si le nombre maximum d'animaux est atteint.
+
+
+OK 5. Créez une méthode statique dans la classe `Animal` qui compare deux animaux en fonction de leur espèce. 
+Utilisez cette méthode pour afficher si deux animaux du zoo sont de la même espèce.
+
+
+#### Partie 3 : Affichage des informations
+
+
+OK 1. Ajoutez une méthode statique dans la classe `Animal` qui affiche les détails d'un animal.
+
+OK 2. Affichez les détails de tous les animaux présents dans le zoo.
+
+
+OK 3. Ajoutez une méthode statique dans la classe `Zoo` qui affiche la liste des animaux présents dans le zoo.
+
+
+#### Partie 4 : Test
+
+
+1. Testez votre implémentation en créant quelques animaux, en les ajoutant au zoo, et en affichant les informations.
+
+
+2. Testez la comparaison d'espèces pour voir si elle fonctionne correctement.
+
+
+#### Astuce :
+- Pensez à utiliser le mot-clé `parent::` pour appeler la méthode de la classe parente.
+- Utilisez la méthode `self::` pour accéder aux éléments statiques de la classe courante.
+
